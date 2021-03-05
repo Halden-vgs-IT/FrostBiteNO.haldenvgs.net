@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style/oppgave1.css">
+</head>
+<body>
+<nav>
+    <a href="index.html"><button>hjemmeside</button></a>
+    <a href="heiskort.html"><button>Heiskort</button></a>
+    <a href="hytter.html"><button>Hytter</button></a>
+    <a href="hytteleie.html"><button>Hytteleie</button></a>
+</nav>
+<br>
+<h3>Hva slags heiskort vil du ha</h3>
+<select id="alder">
+    <option value="200">Voksen</option>
+    <option value="100">Barn(0-12år)</option>
+</select>
+<div class="slidecontainer">
+    <input type="range" min="1" max="7" value="1" class="slider" id="antDag">
+    <p>antall dager: <span id="dag"></span></p>
+</div>
+
+<button id="btn">beregn pris</button>
+<p id="output"></p>
+<p id="output2"></p>
+
+<script src="script/heisscript.js">
+</script>
+</body>
+</html>

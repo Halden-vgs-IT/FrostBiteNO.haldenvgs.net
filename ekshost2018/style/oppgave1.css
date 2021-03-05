@@ -1,0 +1,13 @@
+.slidecontainer {
+    width: 100%;
+}
+.slider:hover {
+    opacity: 1;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+

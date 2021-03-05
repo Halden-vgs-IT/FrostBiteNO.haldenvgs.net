@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hytteleie</title>
+    <link href="style/oppgave3.css" rel="stylesheet">
+</head>
+<body>
+<nav>
+    <a href="index.html"><button>hjemmeside</button></a>
+    <a href="heiskort.html"><button>Heiskort</button></a>
+    <a href="hytter.html"><button>Hytter</button></a>
+    <a href="hytteleie.html"><button>Hytteleie</button></a>
+</nav>
+<h1>hyttelie</h1>
+<h2>velg en ferie</h2>
+<select id="ferie">
+    <option value="7">---</option>
+    <option value="0">Juleferie</option>
+    <option value="1">Vinterferie</option>
+    <option value="2">Påskeferie</option>
+</select>
+<table>
+    <tr>
+        <td>hytte</td>
+        <td>senger</td>
+        <td>standerd</td>
+        <td>badestue</td>
+        <td>ukepris</td>
+        <td>Bilde</td>
+        <td>tilgjengelighet</td>
+    </tr>
+    <tr>
+        <td class="hyt"></td>
+        <td class="seng"></td>
+        <td class="stand"></td>
+        <td class="bad"></td>
+        <td class="pri"></td>
+        <td><img width="50%" src="medier/granstua.jpg" /></td>
+        <td>
+            <button id="knappUaJ">Utleid</button>
+            <button id="knappUaV">Utleid</button>
+            <button id="knappUaP">Lei Granstua</button>
+        </td>
+    </tr>
+    <tr>
+        <td class="hyt"></td>
+        <td class="seng"></td>
+        <td class="stand"></td>
+        <td class="bad"></td>
+        <td class="pri"></td>
+        <td><img width="50%"  src="medier/granbo.jpg" /></td>
+        <td>
+            <button id="knappBoJ">Lei Granbo</button>
+            <button id="knappBoV">utleid</button>
+            <button id="knappBoP">Lei Granbo</button>
+        </td>
+    </tr>
+    <tr>
+        <td class="hyt"></td>
+        <td class="seng"></td>
+        <td class="stand"></td>
+        <td class="bad"></td>
+        <td class="pri"></td>
+        <td><img width="50%" src="medier/grantoppen.jpg" /></td>
+        <td>
+            <button id="knappEnJ">utleid</button>
+            <button id="knappEnV">Lei Grantoppen</button>
+            <button id="knappEnP">utleid</button>
+        </td>
+    </tr>
+    <tr>
+        <td class="hyt"></td>
+        <td class="seng"></td>
+        <td class="stand"></td>
+        <td class="bad"></td>
+        <td class="pri"></td>
+        <td><img width="50%" src="medier/granhaug.jpg" /></td>
+        <td>
+            <button id="knappUgJ">Utleid</button>
+            <button id="knappUgV">Lei Granhaug</button>
+            <button id="knappUgP">Utleid</button>
+        </td>
+    </tr>
+</table>
+<button id="lei">velg ferie</button>
+<p id="output1"></p>
+<p id="output2"></p>
+<script src="script/leiescript.js"></script>
+</body>
+</html>
